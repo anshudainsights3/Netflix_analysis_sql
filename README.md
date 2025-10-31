@@ -1,10 +1,10 @@
 ## Netflix Movies and TV Shows Analysis(SQL Project)
 
-##Overview
+Overview:
 This project performs a comprehensive analysis of Netflix's movies and TV shows dataset using SQL.
 The goal is to extract meaningful business insights and understand the distribution, trends, and characteristics of Netflix’s content library.
 
-#Objectives
+Objectives:
 Analyze the distribution of Movies vs. TV Shows
 Identify the most common ratings
 Examine content distribution across years and countries
@@ -12,12 +12,12 @@ Determine the longest movies and top-performing countries
 Explore content trends, directors, and genres
 Derive insights into keyword-based categorization
 
-#Dataset
+Dataset:
 The dataset used in this analysis was sourced from Kaggle.
 It contains detailed information about Netflix’s available titles.
 Dataset Link: https://www.kaggle.com/datasets/shivamb/netflix-shows
 
-#Schema
+Schema:
 DROP TABLE IF EXISTS netflix;
 CREATE TABLE netflix (
     show_id      VARCHAR(10) PRIMARY KEY,
@@ -34,7 +34,7 @@ CREATE TABLE netflix (
     description  VARCHAR(300)
 );
 
-#Business Problems:
+Business Problems:
 1.Count the Number of Movies vs TV Shows
 → Determine the distribution of content types on Netflix.
 
@@ -80,7 +80,7 @@ CREATE TABLE netflix (
 15.Categorize Content Based on the Presence of 'Kill' and 'Violence' Keywords
 → Classify content as ‘Good’ or ‘Bad’ depending on the description keywords.
 
-#Findings & Conclusion
+Findings & Conclusion:
 Movies form the majority of Netflix’s content library.
 The U.S. and India contribute the highest number of titles.
 TV-MA and TV-14 are the most common ratings.
