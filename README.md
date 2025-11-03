@@ -1,12 +1,12 @@
 # 🎬 Netflix Movies and TV Shows Analysis (SQL Project)
 
-## 📘 Overview
+##  Overview
 This project performs a **comprehensive analysis** of Netflix’s movies and TV shows dataset using **SQL**.  
 The goal is to extract **meaningful business insights** and understand the **distribution, trends, and characteristics** of Netflix’s global content library.
 
 ---
 
-## 🎯 Objectives
+##  Objectives
 - Analyze the distribution of **Movies vs. TV Shows**  
 - Identify the **most common ratings**  
 - Examine **content distribution across years and countries**  
@@ -16,13 +16,13 @@ The goal is to extract **meaningful business insights** and understand the **dis
 
 ---
 
-## 🗂 Dataset
+## Dataset
 **Source:** [Kaggle - Netflix Shows Dataset](https://www.kaggle.com/datasets/shivamb/netflix-shows)  
 The dataset includes detailed information about Netflix’s available titles such as type, director, cast, country, release year, rating, duration, and genre.
 
 ---
 
-## 🧱 SQL Schema
+##  SQL Schema
 
 ```sql
 DROP TABLE IF EXISTS netflix;
@@ -43,7 +43,7 @@ CREATE TABLE netflix (
 
 ---
 
-## 💼 Business Problems & Queries
+##  Business Problems & Queries
 
 1. **Count the Number of Movies vs. TV Shows**  
    → Determine the distribution of content types on Netflix.
@@ -94,15 +94,15 @@ CREATE TABLE netflix (
 
 ## 📊 Findings & Conclusion
 
-- 🎥 **Movies** make up the majority of Netflix’s content library.  
-- 🌍 **United States** and **India** contribute the highest number of titles.  
-- 📺 **TV-MA** and **TV-14** are the most common content ratings.  
-- 📈 The dataset reveals valuable insights into **content type distribution**, **genre preferences**, and **global content diversity**.
+-  **Movies** make up the majority of Netflix’s content library.  
+-  **United States** and **India** contribute the highest number of titles.  
+-  **TV-MA** and **TV-14** are the most common content ratings.  
+-  The dataset reveals valuable insights into **content type distribution**, **genre preferences**, and **global content diversity**.
 
 ---
 
-## 👩‍💻 Developer
+##  Developer
 
 **Anshu Rajput**  
-📍 *Data Analyst | SQL Developer | Insight-Driven Professional*  
-🔗 [GitHub Profile](https://github.com/anshudainsights3)
+ *Data Analyst | SQL Developer | Insight-Driven Professional*  
+ [GitHub Profile](https://github.com/anshudainsights3)
